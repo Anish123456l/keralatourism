@@ -1,0 +1,71 @@
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+.navigation{
+float: right;
+margin: 15px 0px 10px 10%;
+}
+.navigation > a{
+    color:green;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px black solid;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s ease-in;
+}
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+
+}
+header{
+    background-color: whitesmoke;
+
+}
+.navigation > a:hover{
+    background-color: darkgreen;
+    transform: 2s;
+    
+    
+}
+body{
+    background-image: url(./IMAGES/munroe-island-kerala-india-wallpaper-preview.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+}
+
+form{
+    width: 200px;
+    background-color: rgb(49, 155, 67);
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 10px 10px 10px 10px;
+    float: right;
+    
+   
+    
+}
+
+
+
+form input{
+    width: 100%;
+}
+
+#btn{
+width:100%;
+background-color: rgb(98, 173, 98)
+}
+
+
